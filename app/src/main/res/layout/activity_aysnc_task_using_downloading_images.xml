@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dadabhagwan.multithreadingprocessservice.MainActivity">
+
+    <EditText
+        android:id="@+id/EnterUrl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Here" />
+
+    <Button
+        android:onClick="downloadImage"
+        android:id="@+id/ClickToDownloadImage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Download.." />
+
+
+        <ProgressBar
+
+
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminate="false"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/progressBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:entries="@array/UrlName">
+
+    </ListView>
+
+</LinearLayout>

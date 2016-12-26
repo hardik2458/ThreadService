@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MultiThreadingProcessService</string>
+
+    <string-array name="UrlName">
+        <item>Image 1</item>
+        <item>Image 2</item>
+        <item>Image 3</item>
+        <item>Image 4</item>
+        <item>Image 5</item>
+        <item>Image 6</item>
+    </string-array>
+
+
+    <string-array name="UrlImages">
+        <item>http://www.w3schools.com/css/trolltunga.jpg </item>
+        <item>http://i164.photobucket.com/albums/u8/hemi1hemi/COLOR/COL9-6.jpg</item>
+        <item>http://wallpaper-gallery.net/image.php?pic=/images/dubai-images/dubai-images-17.jpg</item>
+        <item>https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/03/1458289957powerful-images3.jpg</item>
+        <item>https://static.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg</item>
+        <item>http://wallpaper-gallery.net/images/dubai-images/dubai-images-12.jpg</item>
+
+    </string-array>
+
+
+</resources>
